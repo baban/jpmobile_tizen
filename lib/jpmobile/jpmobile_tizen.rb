@@ -2,7 +2,7 @@ require "jpmobile"
 
 module Jpmobile
   module Mobile
-    autoload :Tizen, 'jpmobile_tizen/mobile/tizen'
+    autoload :Tizen, 'jpmobile/mobile/tizen'
     DEFAULT_CARRIERS_WITH_TIZEN = %w(Docomo Au Softbank Vodafone Emobile Willcom Ddipocket Iphone Android WindowsPhone Tizen)
     def self.carriers
       if @carriers.nil? || @carriers == DEFAULT_CARRIERS
