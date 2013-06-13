@@ -16,6 +16,14 @@ Or install it yourself as:
 
     $ gem install jpmobile_tizen
 
+
+最後にApplicationCiontroller からモジュールをインクルードして下さい
+これでTizenがサポートされます
+
+    class ApplicationController < ActionController::Base
+      # JpMobileにTizenのサポートを付ける
+      include JpmobileTizen::Support
+
 ## Usage
 
 TODO: Write usage instructions here
