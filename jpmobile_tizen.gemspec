@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["babanba.n@gmail.com"]
   spec.description   = %q{Tizen support add to jpmobile}
   spec.summary       = %q{Tizen support add to jpmobile}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/baban/jpmobile_tizen"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
