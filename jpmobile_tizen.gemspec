@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = JpmobileTizen::VERSION
   spec.authors       = ["baban"]
   spec.email         = ["babanba.n@gmail.com"]
-  spec.description   = %q{Write a gem description}
-  spec.summary       = %q{Write a gem summary}
+  spec.description   = %q{Tizen support add to jpmobile}
+  spec.summary       = %q{Tizen support add to jpmobile}
   spec.homepage      = ""
   spec.license       = "MIT"
 

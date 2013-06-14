@@ -1,21 +1,14 @@
 # JpmobileTizen
 
-TODO: Write a gem description
+Rails定番の携帯端末対応gem Jpmobile に Tizen のSupport を追加する Gem です 
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Gemfile に jpmobile_tizen に冠する記述を加えて、bundle installして下さい
 
     gem 'jpmobile_tizen'
 
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install jpmobile_tizen
-
+    $ bundle intall
 
 最後にApplicationCiontroller からモジュールをインクルードして下さい
 これでTizenがサポートされます
@@ -26,12 +19,5 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+特に詳しいことを書く必要がある程のものではありませんので、説明は以上です
 
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
