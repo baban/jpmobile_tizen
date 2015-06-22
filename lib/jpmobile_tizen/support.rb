@@ -4,6 +4,6 @@ module JpmobileTizen::Support
   end
 
   def jpmobile_tizen_support
-    Jpmobile::Mobile.carriers= Jpmobile::Mobile::DEFAULT_CARRIERS_WITH_TIZEN
+    Jpmobile::Mobile.carriers = Jpmobile::Mobile::DEFAULT_CARRIERS
   end
 end
