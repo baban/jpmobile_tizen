@@ -1,6 +1,6 @@
 module JpmobileTizen::Support
   def self.included(klass)
-    klass.before_filter :jpmobile_tizen_support
+    klass.before_action :jpmobile_tizen_support
   end
 
   def jpmobile_tizen_support
